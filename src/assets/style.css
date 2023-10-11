@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+#chart {
+    max-width: 600px;
+    min-width: 300px;
+    margin: 35px auto;
+  }
+
+  .footer{
+    max-width: 600px;
+    min-width: 300px;
+    margin: 35px auto;
+  }
+
+  .section-title{
+    max-width: 600px;
+    min-width: 300px;
+    margin: 20px auto;
+  }
+
+  .section-title-hr{
+    width: calc(100% - 90px);
+    height: 3px;
+    background-color: blue;
+    display: inline-block;
+  }
+button{
+    width: 100px;
+    height: 3px;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 13px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+    translate: all 1s;
+}
+
+button:hover{
+    scale: 1.1;
+}
+
+button img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.download-button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.section-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-title img{
+    width: 25x;
+    height: 25px;
+}
+
+.chart-container{
+    min-width: 300px;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: rgb(243, 243, 243);
+}
+
+.chart-container span{
+    display: block;
+    padding: 5px 5px 5px 15px;
+    background-color: rgb(212, 234, 255);
+    color: rgb(0, 102, 255);
+    font-weight: 800;
+    
+}
+
+#chart{
+    background-color: white;
+    width: 90%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.main-container{
+    margin: auto;
+
+    margin-top: 15px;
+    width: 595px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.footer-date{
+    color: blue;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+.footer-page-indicator{
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+}
