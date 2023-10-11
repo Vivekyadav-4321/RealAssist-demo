@@ -51,7 +51,7 @@ export function Chart() {
 
     const { toPDF, targetRef } = usePDF({
         filename: "Robbery.pdf",
-        page: { margin: Margin.MEDIUM ,format: 'A4'},
+        page: { margin: Margin.MEDIUM, format: 'A4' },
         resolution: 2
     })
 
@@ -69,7 +69,7 @@ export function Chart() {
                     </div>
                     <div className='chart-container'>
                         <span>
-                        Robbery
+                            Robbery
                         </span>
                         <div id='chart' >
                         </div>
